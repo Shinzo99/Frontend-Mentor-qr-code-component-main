@@ -99,10 +99,10 @@ body {
 
 .container {
   background-color: var(--clr-white);
-  max-width: 300px;
-  margin: 200px auto;
+  max-width: 350px;
+  margin: 100px auto;
   border-radius: 20px;
-  padding: 15px;
+  padding: 17px;
 }
 .container img {
   border-radius: 10px;
@@ -113,14 +113,15 @@ body {
   font-weight: var(--fw-bold);
   text-align: center;
   color: var(--clr-dark-blue);
-  padding-top: 10px;
+  padding: 20px;
 }
 .container p {
   font-family: var(--ff-primary);
   font-size: var(--fs-400);
   text-align: center;
   color: var(--clr-grayish-blue);
-  padding: 15px 2px;
+  padding: 0px 15px;
+  padding-bottom: 20px;
 }
 
 .footer {
@@ -146,6 +147,6 @@ body {
 
 @media (min-width: 920px) {
   .container {
-    margin: 225px auto;
+    margin: 100px auto;
   }
 }/*# sourceMappingURL=main.css.map */
